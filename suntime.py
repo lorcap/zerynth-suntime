@@ -81,7 +81,7 @@ in local time::
     tz3 = timezone(timedelta(hours=2))
 
     # https://www.timeanddate.com/sun/italy/rome?month=1&year=2000
-    print('Rome:'))
+    print('Rome:')
     rt1 = datetime(*dt1, *sr1, tzinfo=utc).astimezone(tz1) # 2000-01-01 07:38:00+01:00
     st1 = datetime(*dt1, *ss1, tzinfo=utc).astimezone(tz1) # 2000-01-01 16:49:00+01:00
     print('>', rt1)
