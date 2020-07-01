@@ -9,24 +9,27 @@ Approximated calculation of sunrise and sunset time. Adapted from
 https://github.com/SatAgro/suntime.
 
 
+Class methods
+-------------
+
 .. class:: Sun(latitude, longitude)
 
-Arguments *latitude* and *longitude* are floats representing the
-coordinates of a place on Earth.
+   Arguments *latitude* and *longitude* are floats representing the
+   coordinates of a place on Earth.
 
 
 .. method:: get_sunrise_time(year, month, day)
 
-Calculate the sunrise time for the given date. It returns a tuple of
-integers ``(hour, minute)`` in UTC time or ``None`` if sun doesn't
-raise on that location at the given date.
+   Calculate the sunrise time for the given date. It returns a tuple of
+   integers ``(hour, minute)`` in UTC time or ``None`` if sun doesn't
+   raise on that location at the given date.
 
 
 .. method:: get_sunset_time(year, month, day)
 
-Calculate the sunset time for the given date. It returns a tuple of
-integers ``(hour, minute)`` in UTC time or ``None`` if sun doesn't
-set on that location at the given date.
+   Calculate the sunset time for the given date. It returns a tuple of
+   integers ``(hour, minute)`` in UTC time or ``None`` if sun doesn't
+   set on that location at the given date.
 
 
 Examples of usage
