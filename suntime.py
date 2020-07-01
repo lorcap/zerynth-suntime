@@ -9,6 +9,12 @@ Approximated calculation of sunrise and sunset time. Adapted from
 https://github.com/SatAgro/suntime.
 
 
+.. attention:: This module relays on the availability of ``round()``
+   as Zerynth's builtins. Currently, there is a pull requests for it:
+
+   * `core-zerynth-stdlib#3 <https://github.com/zerynth/core-zerynth-stdlib/pull/3>`_
+
+
 Class methods
 -------------
 
