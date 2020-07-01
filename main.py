@@ -86,19 +86,25 @@ try:
     #tz3 = timezone(timedelta(hours=2))
 
     ## https://www.timeanddate.com/sun/italy/rome?month=1&year=2000
+    #print('Rome:'))
     #rt1 = datetime(*dt1, *sr1, tzinfo=utc).astimezone(tz1) # 2000-01-01 07:38:00+01:00
     #st1 = datetime(*dt1, *ss1, tzinfo=utc).astimezone(tz1) # 2000-01-01 16:49:00+01:00
-    #print('Rome:\n  %s\n  %s' % (rt1, st1))
+    #print('>', rt1)
+    #print('>', st1)
 
     ## https://www.timeanddate.com/sun/poland/warsaw?month=10&year=2014
+    #print('Warsaw:')
     #rt2 = datetime(*dt2, *sr2, tzinfo=utc).astimezone(tz2) # 2014-10-03 07:39:00+03:00
     #st2 = datetime(*dt2, *ss2, tzinfo=utc).astimezone(tz2) # 2014-10-03 19:10:00+03:00
-    #print('Warsaw:\n  %s\n  %s' % (rt2, st2))
+    #print('>', rt2)
+    #print('>', st2)
 
     ## https://www.timeanddate.com/sun/south-africa/cape-town?month=12&year=2016
+    #print('Cape Town:')
     #rt3 = datetime(*dt3, *sr3, tzinfo=utc).astimezone(tz3) # 2016-12-21 05:32:00+02:00
     #st3 = datetime(*dt3, *ss3, tzinfo=utc).astimezone(tz3) # 2016-12-21 19:57:00+02:00
-    #print('Cape Town:\n  %s\n  %s' % (rt3, st3))
+    #print('>', rt3)
+    #print('>', st3)
 
     ###################################################################
 
